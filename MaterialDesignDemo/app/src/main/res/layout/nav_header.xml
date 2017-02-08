@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/xusong"
+    android:layout_width="match_parent"
+    android:layout_height="180dp">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="#89edeaea"
+        />
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:text="满城涓涤，净此生的别离"
+        android:textColor="#FFF"
+        android:textSize="14sp"
+         android:layout_marginStart="10dp"
+        android:layout_below="@+id/mail"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mail"
+        android:text="NullPointerException"
+        android:textColor="#FFF"
+        android:textSize="25sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/icon_image"
+        android:layout_alignParentStart="true" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/icon_image"
+        android:src="@drawable/nav_icon"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

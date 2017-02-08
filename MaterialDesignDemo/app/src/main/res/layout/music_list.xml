@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/other_rl_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:transitionName="music_transition"
+    android:background="@android:color/transparent">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/other_fab_circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:transitionName="music_transition"
+        app:backgroundTint="@color/colorAccent"
+        app:elevation="0dp"
+        app:fabSize="normal"
+        app:pressedTranslationZ="8dp"
+        tools:targetApi="21"/>
+
+    <TextView
+        android:id="@+id/other_tv_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:text="音乐列表"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        tools:visibility="visible"/>
+
+    <ImageView
+        android:id="@+id/other_iv_close"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:layout_margin="10dp"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_menu"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_friends4"
+        android:title="会员特权"
+        android:icon="@drawable/nav_friends"
+
+        />
+    <item
+        android:id="@+id/nav_location4"
+        android:title="QQ钱包"
+        android:icon="@drawable/nav_location"
+
+        />
+    <item
+        android:id="@+id/nav_skin"
+        android:title="QQ皮肤"
+        android:icon="@drawable/nav_location"
+
+        />
+    <item
+        android:id="@+id/nav_call2"
+        android:title="收藏与文件"
+        android:icon="@drawable/nav_call"
+        />
+
+    <item
+        android:id="@+id/nav_friends2"
+        android:title="相册与日志"
+        android:icon="@drawable/nav_friends"
+
+        />
+    <item
+        android:id="@+id/music_line"
+        android:title="音乐轴"
+        android:icon="@drawable/nav_friends"
+
+        />
+    <item
+        android:id="@+id/nav_location2"
+        android:title="更多设置"
+        android:icon="@drawable/nav_location"
+        />
+    <item
+        android:id="@+id/nav_call3"
+        android:title="夜间模式"
+        android:icon="@drawable/nav_call"
+        />
+
+    <item
+        android:id="@+id/logout"
+        android:title="注销"
+        android:icon="@drawable/nav_location"
+        />
+      <item
+        android:id="@+id/exit"
+        android:title="退出"
+        android:icon="@drawable/nav_call"
+        />
+</menu>

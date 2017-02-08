@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/delete"
+        android:title="清理聊天列表"
+        android:icon="@drawable/ic_delete"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/group"
+        android:title="创建群聊"
+        android:icon="@drawable/nav_icon"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/add"
+        android:title="添加好友"
+        android:icon="@drawable/ic_done"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/scanner"
+        android:title="扫一扫"
+        android:icon="@drawable/nav_icon"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/file"
+        android:title="文件管理"
+        android:icon="@drawable/nav_icon"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/pay"
+        android:title="快捷支付"
+        android:icon="@drawable/nav_icon"
+        app:showAsAction="never"
+        />
+    <item
+    android:id="@+id/camera"
+    android:title="快速拍摄"
+    android:icon="@drawable/nav_icon"
+    app:showAsAction="never"
+    />
+</menu>

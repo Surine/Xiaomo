@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto">
+<RelativeLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_marginTop="100dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:text="添加好友"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/add_title"
+                android:layout_marginTop="10dp"
+                android:textColor="#939494"
+                />
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:layout_marginBottom="4dp"
+                android:id="@+id/textInputLayout_one"
+                android:layout_below="@+id/add_title"
+                >
+              <EditText
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:hint="请输入帐号"
+                  android:id="@+id/get_number"
+                  android:layout_margin="20dp"
+                  />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:layout_below="@id/textInputLayout_one"
+                >
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="请输入申请理由"
+                    android:layout_margin="20dp"
+                    android:id="@+id/get_reason"/>
+            </android.support.design.widget.TextInputLayout>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fab_add_contact"
+        android:layout_margin="32dp"
+        android:src="@drawable/ic_done"
+        android:elevation="8dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>
+</ScrollView>

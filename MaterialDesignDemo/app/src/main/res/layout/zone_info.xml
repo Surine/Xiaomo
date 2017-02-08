@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:id="@+id/cardview"
+    android:layout_marginTop="2.5dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginBottom="4.5dp"
+    android:layout_centerHorizontal="true"
+    app:cardElevation="2dp"
+    app:cardCornerRadius="3dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/grape"
+            android:scaleType="centerCrop"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/qzone_list_image"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/qzone_list_image"
+            android:layout_margin="5dp"
+            android:id="@+id/qzone_list_content"
+            android:text="@string/test_text"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/qzone_list_content"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/orange"
+                android:layout_weight="1"
+                android:id="@+id/shuoshuo_list_head"
+                android:layout_margin="10dp"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="8"
+                android:gravity="start"
+                android:layout_gravity="start"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/speak_name"
+                    android:text="我是谁"
+                    android:maxLength="8"
+                    android:ellipsize="end"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginTop="2dp"
+                    android:text="2017.1.22"
+                    android:id="@+id/shuoshuo_list_time"
+                    android:textColor="#38d4cc"
+                    android:textSize="10sp"
+                    />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_weight="4"
+                android:layout_marginStart="35dp"
+                android:id="@+id/list_love"
+                android:layout_gravity="center"
+                android:src="@drawable/love"
+                />
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_weight="4"
+                android:layout_marginStart="15dp"
+                android:layout_gravity="center"
+                android:src="@drawable/speak"
+                android:id="@+id/list_speak"
+                />
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_weight="4"
+                android:layout_marginStart="15dp"
+                android:layout_gravity="center"
+                android:layout_marginEnd="15dp"
+                android:id="@+id/list_share"
+                android:src="@drawable/share"
+                />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
+
+

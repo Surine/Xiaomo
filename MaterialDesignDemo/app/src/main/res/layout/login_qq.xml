@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="56dp"
+        android:background="@color/colorPrimary"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="登录QQ"
+            android:id="@+id/login_title"
+            android:textColor="#fff"
+            />
+
+        <!-- Email Label -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="4dp">
+            <EditText android:id="@+id/input_qq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="20"
+                android:hint="QQ或邮箱" />
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Password Label -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp">
+            <EditText android:id="@+id/input_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="16"
+                android:inputType="textPassword"
+                android:hint="密码"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_login"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/rip"
+            android:layout_marginBottom="24dp"
+            android:padding="12dp"
+            android:textColor="#fff"
+            android:text="开启新旅程！"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView android:id="@+id/link"
+                  android:layout_width="0dp"
+                  android:layout_weight="1"
+                  android:layout_height="wrap_content"
+                  android:text="创建帐户"
+                  android:gravity="center"
+                  android:textColor="#848383"
+                  android:textSize="13sp"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="10dp"
+            android:background="#e1dede"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            />
+        <TextView android:id="@+id/forget"
+                  android:layout_width="0dp"
+                  android:layout_weight="1"
+                  android:gravity="center"
+                  android:layout_height="wrap_content"
+                  android:text="无法登陆"
+                  android:textColor="#848383"
+                  android:textSize="13sp"/>
+    </LinearLayout>
+
+    </LinearLayout>
